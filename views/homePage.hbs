@@ -1,0 +1,19 @@
+<div id="homePage">  
+  <p class="Welcome-txt">Welcome to the beginning of your healthier eating journey! FitFork is here to guide you towards making smarter, healthier food choices.Just input your ingredients, and let us recommend delicious, nutritious dishes tailored just for you. Track your calories, discover new recipes, and learn about the nutritional value of your meals—all in one place.</p>
+  <p class="Explore-txt">Ready to explore? Let's get started!</p>
+  <p id="warningTxt">{{ warningTxt }}</p>
+  <form method="POST" class="loginForm" action="/personalPage">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Name</label>
+      <input type="text" name="username" class="form-control" value="{{ session_username }}">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" name="password" class="form-control" id="exampleInputPassword1" value="{{ session_password }}">
+    </div>
+    <div id="loginBtn">
+      <button type="submit" class="btn btn-success btnLgn">Login</button>
+      <a type="button" class="btn btn-success btnLgn" href="/register">Register</a>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,13 @@
+yy4435: linserv1.cims.nyu.edu... port 24295
+Username: yy4435
+Password: ;:6.@R?-Js
+
+
+idea
+1. construct the database locally + make the database connected and will constructed [check!]
+2. create the hbs
+    the main page
+3. connection between hbs with app.mjs
+4. implement the algo part
+mongorestore --uri="mongodb+srv://yy4435:20040719Billy@fitforkdb.9t7ervj.mongodb.net" /Users/yiboyan/dumps
+DSN=mongodb+srv://yy4435:20040719Billy@fitforkdb.9t7ervj.mongodb.net/FitFork_local?retryWrites=true&w=majority&appName=FitForkDB

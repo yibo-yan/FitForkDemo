@@ -1,0 +1,204 @@
+.logo-pos{
+    width: 200px ;        
+    position: absolute;
+    top: 0;            
+    left: 50%;        
+    transform: translateX(-50%);
+}
+.Welcome-txt{
+    text-align: center;
+    margin-top: 190px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.Explore-txt{
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    position: absolute;
+    margin-top: 10px;
+    left: 50%;        
+    transform: translateX(-50%);
+}
+#loginBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    position: absolute;
+    top: 160px;
+    left: 50%;        
+    transform: translateX(-50%);
+}
+#registerBtn{
+    text-align: center;
+    padding-top: 465px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.btnLgn{
+    width: 90px;
+    margin: 8px;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;        
+    transform: translateX(-50%);
+}
+.register-text{
+    text-align: center;
+    padding-top: 520px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.recipe-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;        
+    transform: translateX(-50%);
+}
+.recipe-add-btn{
+    width: 200px ;        
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 170px;
+    left: 50%;        
+    transform: translateX(-50%);
+}
+.ingredint-lst{
+    display: flex;
+    flex-direction: row;
+}
+.ingredient-item{
+    margin-right: 4px;
+}
+.recipe-back-btn{
+    width: 200px ;        
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    left: 50%;        
+    transform: translateX(-50%);
+}
+#ingre-sub-btn{
+    display: flex;
+    flex-direction: row;
+}
+.btn-custom {
+    flex-grow: 1; 
+    margin: 0 10px; 
+}
+.ingredient-input{
+    margin: 10px;
+}
+.recipe-finder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    position: absolute;
+    left: 50%;        
+    padding-top: 140px;
+    transform: translateX(-50%);
+}
+
+#recipeForm{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+}
+.descrip_box{
+    height: 90px;
+}
+
+#recipeForm button {
+    margin-top: 20px;  /* Adds some space above the button */
+}
+#recipeForm div{
+    margin-top: 20px;
+}
+#warningTxt{
+    text-align: center;
+    position: relative;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: brown;
+}
+#homePage{
+    display: felx;  
+    flex-direction: column;
+}
+#dishResult{
+    text-align: center;
+    position: relative;
+    padding: 4%;
+
+}
+
+.back-per{
+    width: 120px ;        
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 170px;
+    left: 50%;        
+    transform: translateX(-50%);
+}
+.recipe-btns{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+#recipe_form{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13pt;
+}
+
+#genRecipe{
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border : 2px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.ingreTitle{
+    font-size: 16pt;
+    padding-top: 20px;
+}
+.resTitle{
+    font-size: 20pt;
+}
+
+.ingreStr{
+    font-size: 14pt;
+    padding-bottom: 20px;
+}

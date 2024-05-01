@@ -1,0 +1,28 @@
+<div class="container mt-5 recipe-finder">
+        <h4>Hi {{ username }}, please find your recipe!</h4>
+        <form method="POST" id="recipeForm" action="/personalPage/submit">
+            <div class="form-group">
+                <label for="material1">Material 1:</label>
+                <input type="text" value="{{ mat1 }}" class="form-control" id="material1" name="material1" required>
+            </div>
+            <div class="form-group">
+                <label for="material2">Material 2:</label>
+                <input type="text" value="{{ mat2 }}" class="form-control" id="material2" name="material2" required>
+            </div>
+            <div class="form-group">
+                <label for="material3">Material 3:</label>
+                <input type="text" value="{{ mat3 }}" class="form-control" id="material3" name="material3" required>
+            </div>
+            <div class="form-group">
+                <label for="material4">Material 4:</label>
+                <input type="text" value="{{ mat4 }}" class="form-control" id="material4" name="material4" required>
+            </div>
+            <div class="form-group">
+                <label for="expectedCalorie">Expected Calorie:</label>
+                <input type="number" value="{{ userCal }}" class="form-control" id="expectedCalorie" name="expectedCalorie" required>
+            </div>
+
+            <button type="submit" class="btn btn-success" id="cookButton" onclick="showMessage()">Cook</button>
+        </form>
+
+</div>

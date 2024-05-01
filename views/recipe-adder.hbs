@@ -1,0 +1,38 @@
+<p class="Welcome-txt">Let the Community Taste Your Creativity!</p>
+<p class="Explore-txt">Example for ingredients : 500g Pork</p>
+<form method="POST" class="loginForm" action="/recipe">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Name</label>
+    <input type="text" class="form-control" name="Name">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Total Calorie</label>
+    <input type="number" class="form-control" id="exampleInputPassword1" name="Calories">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Chef's techniques</label>
+    <input type="text" class="form-control descrip_box " id="exampleInputPassword1" name="descrip">
+  </div>
+  <div class="mb-3" id="ingredients-container">
+    <label for="ingredient1" class="form-label">Ingredients</label>
+    <input type="text" class="form-control ingredient-input ingredient-input" name="ingredients">
+  </div>
+  <div class="button-group" style="display: flex; justify-content: space-between;">
+    <button type="button" class="btn btn-success btn-custom" onclick="addIngredient()">Add Ingredient</button>
+    <button type="submit" class="btn btn-success btn-custom">Submit</button>
+  </div>
+</form>
+
+
+<script>
+function addIngredient() {
+    var container = document.getElementById('ingredients-container');
+    var newInput = document.createElement('input');
+    newInput.type = 'text';
+    newInput.className = 'form-control ingredient-input';
+    newInput.placeholder = 'Enter ingredient';
+    newInput.name = 'ingredients';
+    container.appendChild(newInput);
+}
+</script>
+
